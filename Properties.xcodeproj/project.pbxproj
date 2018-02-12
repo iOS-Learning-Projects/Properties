@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		E8E418221E7C652300647D39 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E8E418211E7C652300647D39 /* main.m */; };
+		E8E4182A1E7C652F00647D39 /* Pessoa.m in Sources */ = {isa = PBXBuildFile; fileRef = E8E418291E7C652F00647D39 /* Pessoa.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +26,8 @@
 /* Begin PBXFileReference section */
 		E8E4181E1E7C652300647D39 /* Properties */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Properties; sourceTree = BUILT_PRODUCTS_DIR; };
 		E8E418211E7C652300647D39 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		E8E418281E7C652F00647D39 /* Pessoa.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Pessoa.h; sourceTree = "<group>"; };
+		E8E418291E7C652F00647D39 /* Pessoa.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Pessoa.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +61,8 @@
 			isa = PBXGroup;
 			children = (
 				E8E418211E7C652300647D39 /* main.m */,
+				E8E418281E7C652F00647D39 /* Pessoa.h */,
+				E8E418291E7C652F00647D39 /* Pessoa.m */,
 			);
 			path = Properties;
 			sourceTree = "<group>";
@@ -120,6 +125,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E8E4182A1E7C652F00647D39 /* Pessoa.m in Sources */,
 				E8E418221E7C652300647D39 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -217,6 +223,7 @@
 		E8E418261E7C652300647D39 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "Mac Developer";
 				DEVELOPMENT_TEAM = 248SB9J68G;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -225,6 +232,7 @@
 		E8E418271E7C652300647D39 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "Mac Developer";
 				DEVELOPMENT_TEAM = 248SB9J68G;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -249,6 +257,7 @@
 				E8E418271E7C652300647D39 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
